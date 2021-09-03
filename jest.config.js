@@ -4,5 +4,7 @@ module.exports = {
         '^.+\\.ts?$': 'ts-jest',
     },
     testRegex: '.\.(spec)\.ts?$',
-    moduleFileExtensions: ['ts', 'js']
+    testPathIgnorePatterns: ["/lib/", "/node_modules/"],
+    moduleFileExtensions: ['ts', 'js'],
+    collectCoverage: true
 }

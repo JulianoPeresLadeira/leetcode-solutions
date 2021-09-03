@@ -21,7 +21,7 @@ describe('Problem 3, Longest Substring Without Repeating Characters',
             'dvdfddfgcv': 5
         }
 
-        describe('Custom examples', () => {
+        describe('Custom problems', () => {
             Object
                 .keys(customTests)
                 .forEach(testInp => {
