@@ -36,4 +36,4 @@ export function findMedianSortedArrays(nums1: number[], nums2: number[]): number
     } else {
         return Math.max(getCurrent(indexA, nums1), getCurrent(indexB, nums2));
     }
-};
+}
