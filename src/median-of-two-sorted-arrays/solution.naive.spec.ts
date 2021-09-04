@@ -1,4 +1,4 @@
-import { findMedianSortedArrays } from './solution'
+import { findMedianSortedArrays } from './solution.naive'
 
 interface CustomTest {
     input: [Array<number>, Array<number>]
@@ -23,7 +23,6 @@ describe('Problem 4, Median of Two Sorted Arrays',
             { input: [[1, 2], []], output: 1.5 },
             { input: [[], [1, 1]], output: 1 },
             { input: [[], [1, 2]], output: 1.5 },
-            { input: [[1, 2, 3, 4], [5, 6, 7, 8, 9]], output: 5 }
         ];
 
         describe('Custom problems', () => {
